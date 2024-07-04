@@ -40,6 +40,7 @@ export default function ButtonAppBar() {
         >
           <SearchIcon sx={{ color: "white", mr: 1 }} />
           <InputBase
+            placeholder="Search for a Movie..."
             sx={{
               color: "white",
               "& ::placeholder": { color: "white", opacity: 0.7 },
